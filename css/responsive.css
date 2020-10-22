@@ -1,0 +1,323 @@
+
+@media screen and (max-width: 1200px) {
+    .container {
+        max-width: 970px;
+    }
+}
+@media screen and (max-width: 992px) {
+    .header h3 {
+        font-size: 80px;
+    }
+
+    .container {
+        max-width: 750px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .container {
+        max-width: 450px;
+    }
+    body.lock {
+        overflow: hidden;
+    }
+    
+    .menu { 
+        padding: 0; 
+        margin-bottom: 150px;
+    }
+    .iconsteam {
+        font-size: 28px;
+        margin-top: 94px;
+    }
+   
+    .under a {
+        font-size: 18px;
+    }
+
+
+    .logo1 {
+       padding: 0;
+       width: 100%;
+       height: 100%;
+       padding-top: 12px;
+       z-index: 5;
+    }
+    .logo1 img {
+        max-width: 100%;
+        max-height: 10%;
+    }
+    .textstory {
+        font: 400 15px 'Roboto', sans-serif;
+        color: #999999;
+        text-align: center;
+        margin: 0 112px 48px;
+    }
+      
+   
+  
+    .menu {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        height: 80px;
+        align-items: center;
+    }
+    .nav-burder::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 50px;
+        background-color: rgba(0,0,0, .3);
+        z-index: 5;
+    }
+    .under {
+        
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 50px;
+    }
+ 
+    .burger {
+        display: block;
+        position: relative;
+        width: 30px;
+        height: 20px;
+        z-index: 5;
+    }
+    .burger::before,
+    .burger::after {
+        content: '';
+        background-color: #fff;
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        left: 0;
+        z-index: 3;
+        transition: all 0.3s ease 0s;
+    }
+    .burger::before {
+        top: 0;
+    }
+    .burger::after {
+        bottom: 0;
+    }
+    .nav-burder {
+        display: flex;
+        justify-content: space-between;
+        position: fixed;
+        width: 100%;
+        z-index: 5;
+    }
+    .position-burger {
+        padding: 12px 12px 0 0;
+    }
+    .burger-header {
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+
+    
+    .burger span {
+        position: absolute;
+        background-color: #fff;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        top: 9px;
+        z-index: 3;
+        transition: all 0.3s ease 0s;
+    }
+
+    .burger.active::before {
+        transform: rotate(45deg);
+        top: 9px;
+    }
+    .burger.active::after {
+        transform: rotate(-45deg);
+        bottom: 9px;
+    }
+    .burger.active span {
+        transform: scale(0);
+    }
+  
+    .list-burger {
+        position: fixed;
+        top: -100%;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        padding: 0 0 0 0;
+        transition: all 0.3s ease 0s;
+        background: #000000 ;
+        padding-top: 80px;
+        z-index: 4;
+        
+    }
+    .list-burger.active {
+        top: 0;
+    }
+    .header h4 {
+        font: 400 72px 'Kaushan Script', sans-serif;
+        color: #fff;
+        width: 540px;
+        margin: auto;
+        margin-bottom: 30px;
+        margin-top: 70px;
+    }
+
+    .photocontainer {
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        text-align: center;
+     }
+    .containerblue {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    .infoprograms {
+        margin: 0 30px;
+        padding-bottom: 32px;
+        width: 100%;
+    }
+    .service {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .servicetwo {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .service {
+        margin-top: 90px;
+        margin-bottom: 0px;
+    }
+    .imgiphone {
+        position: absolute;
+        top: 68%;
+        left: 60.3%;
+    }
+    .photoscrol {
+        float: none;
+        width: 100%;
+    }
+    .boxscrolblock {
+        float: left;
+        width: 91%;
+        margin-left: 4%;
+    }
+    .info-photo {
+        float: none; 
+    }
+    .block-info {
+        display: inline-block;
+    }
+    .infotext p {
+        font: 200 24px 'Roboto', sans-serif;
+        color: #999999;
+        line-height: 1.5;
+        padding: 40px 26px 40px 0;
+    }
+    .menphoto {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .manblock p {
+        font: 300 15px 'Roboto', sans-serif;
+        color: #999999;
+        margin-bottom: 50px;
+        padding-top: 2px;
+        font-style: italic;
+    }
+    .iconsteam {
+        margin-bottom: 19px;
+    }
+    .grid-photo .teamnone .iconsteam {
+        margin-bottom: 20px;
+    }
+
+    .grid-photo .iconsteam {
+        margin-top: 21px;
+    }
+    .grid-photo3 .iconsteam {
+        margin-top: 99px;
+    }
+    .boxgoramen {
+        display: flex;
+        flex-direction: column;
+    }
+    .infogora {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 0;
+    }
+    .smotrblock {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        padding-bottom: 0;
+    }
+    .text-smotr {
+        text-align: left;
+        padding-bottom: 90px;
+    }
+    .mogofooter {
+    
+        flex-direction: column;
+    }
+    .linegora {
+        float: left;
+    }
+    .infogora p {
+        font: 400 12px 'Roboto', sans-serif;
+        color: #999999;
+        margin-left: 119px;
+        padding-bottom: 31px;
+    }
+    .blockgoraone {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 0px; 
+        margin-top: 0px;
+    }
+    .first {
+        order: 3;
+    }
+    .second {
+        order: 2;
+    }
+    .third {
+        order: 1;
+    }
+    .mogoblock {
+        padding-top: 40px;
+    }
+    .gridinsta {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        cursor: pointer;
+    }
+    .headerbogs h4 {
+        padding-bottom: 35px;
+    }
+    .container {
+        max-width: 100%;
+    }
+    .smotr-photo {
+        max-width: 58%;
+    }
+    .photoblock {
+        max-width: 100%;
+    }
+   
+}
